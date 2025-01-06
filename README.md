@@ -1,3 +1,4 @@
+
 # Open-WebUI Venice Image Generation Button
 
 This script adds an image generation button to the Open-WebUI interface, leveraging the Venice AI API. It allows users to generate images directly from the chat interface using simple text prompts.

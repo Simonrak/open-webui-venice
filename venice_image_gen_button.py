@@ -1,4 +1,11 @@
-"""A manifold to integrate Venice AI's ImageGen models into Open-WebUI as buttons."""
+"""title: Venice Image Generation Button.
+
+author: Simon
+author_url: https://github.com/open-webui
+funding_url: https://github.com/open-webui
+version: 0.1.0
+required_open_webui_version: 0.3.17
+"""
 
 import logging
 import random
