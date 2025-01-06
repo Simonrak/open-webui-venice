@@ -1,0 +1,44 @@
+[project]
+name = "open-webui-venice"
+version = "0.1.0"
+description = "Open webui function to add a image generation button using venice"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.10.4",
+    "pydantic-settings>=2.7.0",
+    "requests>=2.9.2",
+    "types-requests>=2.32.0.20241016",
+    "typing>=3.7.4",
+]
+
+[build-system]
+requires = ["uv>=0.5.13", "setuptools>=75.7.0"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+test = ["pytest>=8.3.4", "ruff>=0.8.4", "mypy>=1.14.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+lint.select = ["E", "F", "W", "I", "B", "C", "N", "D", "S", "T", "Q"]
+lint.ignore = ["E203", "E266", "E501", "C901"]
+lint.extend-ignore = ["D203", "D213", "S311"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+
+[tool.uv.workspace]
+members = ["open-webui-venice"]

@@ -1,0 +1,67 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+*.so
+build/
+dist/
+wheels/
+*.dist-info
+*.egg-info
+*.egg
+*.manifest
+*.spec
+.old
+
+# Virtual environments
+.venv
+.env
+.envrc
+.vscode
+.idea
+.pytest_cache
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+*.cover
+*.xml,*.cover
+
+# Linting and formatting
+.ruff_cache/
+.mypy_cache/
+
+# Package manager files
+uv.lock
+.python-version
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Editor files
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.old
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+pipeline
+image-gen-button
+.pre-commit-config.yaml 
+
+# Project specific
+.aider*
+.aiderrules
